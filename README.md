@@ -1,5 +1,5 @@
 
- # Animal Crossing Villager Introductions <img width='35px' src='public\goldenLeaf.svg'></img> 
+ # Animal Crossing Villagerpedia <img width='35px' src='public\goldenLeaf.svg'></img> 
 
 >A simple web introduction to Animal Crossing's Villagers in New Horizon.
 

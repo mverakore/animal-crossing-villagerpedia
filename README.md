@@ -1,7 +1,7 @@
 
  # Animal Crossing Villagerpedia <img width='35px' src='public\goldenLeaf.svg'></img> 
 
->A simple web introduction to Animal Crossing's Villagers in New Horizon.
+Introducing AC Villagerpedia! This website uses Kaggle data to showcase all of the villagers available in the popular game, Animal Crossing: New Horizons. Explore the collection of profiles for each villager, featuring detailed information about their name, species, personality, birthday, favorite song, and even their catchphrase.
 
 ## Data Used
 

@@ -32,6 +32,7 @@ export default function Home() {
   useEffect(() => {
     if (personality == 0) {
       setResults(villagers);
+      console.log(villagers)
     } else {
       setResults(
         villagers.filter((villager) =>
@@ -65,17 +66,21 @@ const r = useRouter();
         <link rel="icon" href="/goldenLeaf.svg" />
       </Head>
     
-      <HeaderBar/>
+      <HeaderBar id='header'/>
       <main className={styles.main}>
-        <Header/>
-       <FilterButton 
+      
+      <Header/>
+    
+      <div className={styles.gallery}>
+
+      <FilterButton
        type={filters[personality]} 
        onRight={()=> handleFilterRight()}
        onLeft={()=>handleFilterLeft()} />
-        <div className={styles.gallery}>
 
         {results.map((villager, index)=> (
-          <Cards
+          <Cards 
+          id='card'
           key={villager.Filename}
           name={villager.Name}
           src={villager['Photo Image']}
@@ -85,7 +90,6 @@ const r = useRouter();
               query: {index: index, name: villager.Name, type: filters[personality]}
             })}>
         </Cards>))}
-    
         </div>
       </main>
       <FooterBar/>

@@ -33,9 +33,9 @@ padding: 0.5rem;
 border-radius: 30px;
 `
 
-export function Cards({ src , name='Name', onView = () => {}}) {
+export function Cards({ id, src , name='Name', onView = () => {}}) {
     return (
-        <CardBox onClick={()=>onView()}>
+        <CardBox id={id} onClick={()=>onView()}>
             <Cont>
                 <CardImg src={src} />
             </Cont>

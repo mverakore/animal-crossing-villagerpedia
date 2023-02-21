@@ -17,20 +17,6 @@ const config = {
             },
         },
         {
-            name: 'Desktop Safari',
-            use: {
-                browserName: 'webkit',
-                viewport: { width: 1200, height: 720 },
-            },
-        },
-        {
-            name: 'Desktop Firefox',
-            use: {
-                browserName: 'firefox',
-                viewport: { width: 1200, height: 720 },
-            },
-        },
-        {
             name: 'Mobile Chrome',
             use: {
                 browserName: 'chromium',

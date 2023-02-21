@@ -16,7 +16,8 @@ background-color: #FFFBE7;
 `
 
 const FooterCont = styled(HeaderCont)`
-background-image: url("/footerBar.png");
+
+background-image: url("/footerbar.png");
 `
 
 export function HeaderBar({id}) {
